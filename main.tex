@@ -1,0 +1,217 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CV Bruno Alves 06/2017 %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{altacv}
+
+%Layout
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+%Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+%Colors
+
+\definecolor{accent}{HTML}{000e17}
+\definecolor{heading}{HTML}{000e17}
+\definecolor{emphasis}{HTML}{696969}
+\definecolor{body}{HTML}{01415f}
+
+\colorlet{heading}{heading}
+\colorlet{accent}{accent}
+\colorlet{emphasis}{emphasis}
+\colorlet{body}{body}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%
+
+\begin{document}
+\name{Gabriel M. de Melo}
+\tagline{}
+%\photo{2.5cm}{BrunoAlves}
+\personalinfo{
+  \location{Belo Horizonte, MG, Brazil}
+  \hspace{73.5pt} \email{gabrielmelocomp@gmail.com}
+  \hspace{57pt} \phone{+55 35 99244 7177}
+  
+  \linkedin{linkedin.com/in/gabrielmmelo/}
+  \hspace{57pt}\github{github.com/gabrielmmelo/}
+  \hspace{65pt} \homepage{gabrielmmelo.github.io}
+}
+
+%
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Summary %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[sidebar]{Summary}
+
+\justifying
+    Data Scientist familiar with gathering, cleaning and organizing data for use by technical and non-technical personnel. Advanced understanding of programming, data management and analytical techniques. Highly organized, motivated and diligent with significant background in Computer Science.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Experience}
+
+%%%%%%%%%%%%%
+%Experience 1
+%%%%%%%%%%%%%
+
+\cvevent{Data Science Analyst}{Accenture}{November 2019 -- Ongoing}{Belo Horizonte, Brazil}
+
+\begin{itemize}
+	\item Developed data-gathering and reporting structures from ground up and strategized methods capitalizing on system features;
+	\item Built Data Warehouse and Data Marts using dimensional modeling approaches;
+	\item Developed data pipelines and ETL processes for Machine Learning and analytical projects;
+	\item Built data visualization and insights through Power BI reports;
+	\item Wrote project documentations, in English;
+	\item Main tools:
+	\begin{itemize}
+	    \item Azure Stack (ADF, SSIS, SSAS, ADLS, AML);
+	    \item Python data management (Pandas, Numpy, regexp, threading)
+	    \item SQL Server SQL and DAX queries;
+	\end{itemize}
+\end{itemize}
+
+\divider
+%
+
+%%%%%%%%%%%%%
+%Experience 2
+%%%%%%%%%%%%%
+
+\cvevent{Full Stack Web Developer}{Delta Inova}{July 2019 -- November 2019}{Lavras, Brazil}
+
+\begin{itemize}
+  \item Reviewed code to validate structures, assess security and verify browser, device and operating system compatibility;
+  \item Planned and engineered RESTful web services to manipulate huge datasets;
+  \item Developed brand new web systems front end and back end;
+  \item Main tools:
+  \begin{itemize}
+    \item Python (Django);
+    \item Javascript (Nodejs, Reactjs);
+    \item PHP (Codeigniter).
+  \end{itemize}
+\end{itemize}
+
+
+\cvsection{Education}
+
+%%%%%%%%%%%%%
+%Education 1
+%%%%%%%%%%%%%
+
+\cvevent{B.Sc.\ in 	Computer Science}{UFLA, Lavras, Brazil}{July 2016 -- December 2020}{}
+
+\divider
+
+%%%%%%%%%%%%%
+%Education 2
+%%%%%%%%%%%%%
+
+\cvevent{English as a Second Language\ }{St. George International College, Vancouver, Canada}{July 2019 -- August 2019}{}
+
+\medskip
+
+%%New Page
+\clearpage
+
+\iffalse
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[page2sidebar]{Projects}
+
+%%%%%%%%%%%%%
+%Project 1
+%%%%%%%%%%%%%
+
+\cvevent{Agent-based Platform for Autonomous Sailing Research and Competition}{ISEP-IPP, School of Engineering, Polytechnics of Porto}{January 2015 -- November 2016}{Porto, Portugal}
+
+\begin{itemize}
+  \item Master's degree final project -- Thesis;
+  \item Description -- Platform for real and simulated autonomous sailing competitions, which can also be used as a research tool to test and assess navigation algorithms;
+  \item Techs: Multi-Agent System, Web Services, JAVA, JADE, NodeJS, RethinkDB, PostgreSQL, HTML5 and WebSocket;
+  \item Classification -- 19/20.
+\end{itemize}
+
+\divider
+
+%
+
+%%%%%%%%%%%%%
+%Project 2
+%%%%%%%%%%%%%
+
+\cvevent{Visual Location System -- Press Brakes}{ADIRA –- Metal-Forming Solutions S.A.}{February 2013 -- July 2013}{Porto, Portugal}
+
+\begin{itemize}
+  \item Bachelor's degree final project;
+  \item Description -- Development of hardware and software for a visual tool localization system. The system can be incorporated in all the Press Brakes of the company ADIRA in order to facilitate the operators in the positioning of the tools;
+  \item Techs: C, C++, PCB Design, Microcontrollers and CNC;
+  \item Classification -- 18/20.
+\end{itemize}
+
+\divider
+
+%
+
+%%%%%%%%%%%%%
+%Project 3
+%%%%%%%%%%%%%
+
+\cvevent{Nutrition Platform}{MOVELIFE}{June 2012 -- September 2012}{Porto, Portugal}
+
+\begin{itemize}
+  \item Description -- The platform allows to evaluate the nutrition of restaurant recipes and to identify allergens (Regulation (EU) No. 1169/2011);
+  \item Techs: PHP, HTML5 and MySQL;
+\end{itemize}
+
+\divider
+
+%
+
+%%%%%%%%%%%%%
+%Project 4
+%%%%%%%%%%%%%
+
+\cvevent{Management Software}{Centro de Explicações -- Nota20}{July 2010 -- September 2010}{Porto, Portugal}
+
+\begin{itemize}
+  \item Description -- The software controls the number of classes of each student and teacher, as well as allows financial control of the centre;
+  \item Techs: PHP, HTML, JavaScript and MySQL;
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Certificates %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Certificates}
+
+%%%%%%%%%%%%%
+%Certificate 1
+%%%%%%%%%%%%%
+
+\cvevent{Kaizen Office Live}{Kaizen Institute Portugal}{5hours}{Porto,Portugal}
+\divider
+
+%%%%%%%%%%%%%
+%Certificate 2
+%%%%%%%%%%%%%
+
+\cvevent{Kaizen Service}{Kaizen Institute Portugal}{16hours}{Porto,Portugal}
+\divider
+
+\fi
+
+\end{document}

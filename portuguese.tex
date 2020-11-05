@@ -1,0 +1,216 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CV Bruno Alves 06/2017 %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{altacv}
+
+%Layout
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+%Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+%Colors
+
+\definecolor{accent}{HTML}{000e17}
+\definecolor{heading}{HTML}{000e17}
+\definecolor{emphasis}{HTML}{696969}
+\definecolor{body}{HTML}{01415f}
+
+\colorlet{heading}{heading}
+\colorlet{accent}{accent}
+\colorlet{emphasis}{emphasis}
+\colorlet{body}{body}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%
+
+\begin{document}
+\name{Gabriel M. de Melo}
+\tagline{}
+%\photo{2.5cm}{BrunoAlves}
+\personalinfo{
+  \location{Belo Horizonte, MG}
+  \hspace{96.5pt} \email{gabrielmelocomp@gmail.com}
+  \hspace{57pt} \phone{+55 35 99244 7177}
+  
+  \linkedin{linkedin.com/in/gabrielmmelo/}
+  \hspace{57pt}\github{github.com/gabrielmmelo/}
+  \hspace{65pt} \homepage{gabrielmmelo.github.io}
+}
+
+%
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Summary %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[sidebarportuguese]{Resumo}
+
+\justifying
+    Cientista de dados familiar com a coleta, limpeza e organização de dados para uso técnico e não técnico. Avançado conhecimento de programação, gerencialmento de dados e técnicas analíticas. Altamente organizado, motivado e diligente com significativo background em Ciência da Computação.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Experiências}
+
+%%%%%%%%%%%%%
+%Experience 1
+%%%%%%%%%%%%%
+
+\cvevent{Data Science Analyst}{Accenture}{Novembro 2019 -- Atual}{Belo Horizonte, MG}
+
+\begin{itemize}
+	\item Planejamento e implementação de Data Warehouses e Data Marts aplicando estratégias de modelagem dimensional;
+	\item Desenvolvimento de pipeline de dados e processos de ETL para projetos de Aprendizado de Máquina e Análise de dados;
+	\item Construção de visualização de dados através de relatórios de Power BI;
+	\item Escrita de documentação de projetos, em inglês;
+	\item Principais ferramentas:
+	\begin{itemize}
+	    \item Azure Stack (ADF, SSIS, SSAS, ADLS, AML);
+	    \item Python data management (Pandas, Numpy, regexp, threading)
+	    \item SQL Server SQL and DAX queries;
+	\end{itemize}
+\end{itemize}
+
+\divider
+%
+
+%%%%%%%%%%%%%
+%Experience 2
+%%%%%%%%%%%%%
+
+\cvevent{Full Stack Web Developer}{Delta Inova}{Julho 2019 -- Novembro 2019}{Lavras, MG}
+
+\begin{itemize}
+  \item Revisões de código para validação de estruturas, asserções de segurança e verificação de compatibilidade de navegadores, dispositivos e sistemas operacionais;
+  \item Planejamento e desenvolvimento de serviços web baseados em arquitetura RESTful para manipulação de grandes massas de dados;
+  \item Desenvolvimento de novos sistemas web completos, do back-end ao front-end;
+  \item Principais ferramentas:
+  \begin{itemize}
+    \item Python (Django);
+    \item Javascript (Nodejs, Reactjs);
+    \item PHP (Codeigniter).
+  \end{itemize}
+\end{itemize}
+
+
+\cvsection{Educação}
+
+%%%%%%%%%%%%%
+%Education 1
+%%%%%%%%%%%%%
+
+\cvevent{Bacharelado em Ciência da Computação}{UFLA, Lavras, MG}{July 2016 -- December 2020}{}
+
+\divider
+
+%%%%%%%%%%%%%
+%Education 2
+%%%%%%%%%%%%%
+
+\cvevent{English as Second Language\ }{St. George International College, Vancouver, Canada}{July 2019 -- August 2019}{}
+
+\medskip
+
+%%New Page
+\clearpage
+
+\iffalse
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[sidebarportuguese]{Projects}
+
+%%%%%%%%%%%%%
+%Project 1
+%%%%%%%%%%%%%
+
+\cvevent{Agent-based Platform for Autonomous Sailing Research and Competition}{ISEP-IPP, School of Engineering, Polytechnics of Porto}{January 2015 -- November 2016}{Porto, Portugal}
+
+\begin{itemize}
+  \item Master's degree final project -- Thesis;
+  \item Description -- Platform for real and simulated autonomous sailing competitions, which can also be used as a research tool to test and assess navigation algorithms;
+  \item Techs: Multi-Agent System, Web Services, JAVA, JADE, NodeJS, RethinkDB, PostgreSQL, HTML5 and WebSocket;
+  \item Classification -- 19/20.
+\end{itemize}
+
+\divider
+
+%
+
+%%%%%%%%%%%%%
+%Project 2
+%%%%%%%%%%%%%
+
+\cvevent{Visual Location System -- Press Brakes}{ADIRA –- Metal-Forming Solutions S.A.}{February 2013 -- July 2013}{Porto, Portugal}
+
+\begin{itemize}
+  \item Bachelor's degree final project;
+  \item Description -- Development of hardware and software for a visual tool localization system. The system can be incorporated in all the Press Brakes of the company ADIRA in order to facilitate the operators in the positioning of the tools;
+  \item Techs: C, C++, PCB Design, Microcontrollers and CNC;
+  \item Classification -- 18/20.
+\end{itemize}
+
+\divider
+
+%
+
+%%%%%%%%%%%%%
+%Project 3
+%%%%%%%%%%%%%
+
+\cvevent{Nutrition Platform}{MOVELIFE}{June 2012 -- September 2012}{Porto, Portugal}
+
+\begin{itemize}
+  \item Description -- The platform allows to evaluate the nutrition of restaurant recipes and to identify allergens (Regulation (EU) No. 1169/2011);
+  \item Techs: PHP, HTML5 and MySQL;
+\end{itemize}
+
+\divider
+
+%
+
+%%%%%%%%%%%%%
+%Project 4
+%%%%%%%%%%%%%
+
+\cvevent{Management Software}{Centro de Explicações -- Nota20}{July 2010 -- September 2010}{Porto, Portugal}
+
+\begin{itemize}
+  \item Description -- The software controls the number of classes of each student and teacher, as well as allows financial control of the centre;
+  \item Techs: PHP, HTML, JavaScript and MySQL;
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Certificates %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Certificates}
+
+%%%%%%%%%%%%%
+%Certificate 1
+%%%%%%%%%%%%%
+
+\cvevent{Kaizen Office Live}{Kaizen Institute Portugal}{5hours}{Porto,Portugal}
+\divider
+
+%%%%%%%%%%%%%
+%Certificate 2
+%%%%%%%%%%%%%
+
+\cvevent{Kaizen Service}{Kaizen Institute Portugal}{16hours}{Porto,Portugal}
+\divider
+
+\fi
+
+\end{document}
